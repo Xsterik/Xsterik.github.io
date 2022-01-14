@@ -1,0 +1,221 @@
+h1 {
+    padding-left: 25px;
+}
+
+form {
+    margin-top: 15px;
+}
+
+.orderFlex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.orderFlex>div {
+    width: 45%;
+}
+
+@media (max-width: 550px) {}
+
+
+/* .formFirstPart {} */
+
+.choiceFlex {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    align-items: stretch
+}
+
+.choices {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    /* display: inline-block; */
+    text-align: center;
+    /* height: auto; */
+    position: relative;
+    /* margin: auto;
+    margin-bottom: 10px; */
+    cursor: pointer;
+}
+
+.choices label {
+    /* margin: 0 20px; */
+    /* margin-left: 30px; */
+    padding: 0 10px 0 30px;
+    /* padding-left: 30px; */
+    display: block;
+    width: auto;
+}
+
+@media (max-width: 1049px) {
+    .orderFlex {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    .orderFlex>div {
+        width: 100%;
+    }
+    .choices {
+        width: 90%;
+        border: 1px solid black;
+        border-radius: 5px;
+        /* display: inline-block; */
+        text-align: center;
+        /* height: 100%; */
+        position: relative;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .choiceFlex {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+}
+
+.choices>div {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+
+/* .choices>div:first-of-type {
+    width: 10%;
+} */
+
+.choices input {
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 10px;
+}
+
+.choices * {
+    cursor: pointer;
+}
+
+#emporterContainer {
+    /* width: 50%; */
+    max-height: 220px;
+    overflow: auto;
+    margin: 15px 0 15px 45px;
+}
+
+#carrierContainer {
+    width: 50%;
+    max-height: 220px;
+    overflow: auto;
+    margin: 15px 0 15px 45px;
+}
+
+#placeContainer {
+    width: 50%;
+    max-height: 220px;
+    overflow: auto;
+    margin: 15px 0 15px 45px;
+}
+
+.contentOrder {
+    width: 90%;
+    margin: 5px auto;
+}
+
+.choiceOrderFlex {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+}
+
+
+/*.choiceOrderFlex:last-of-type{*/
+
+
+/*    margin-bottom: 0;*/
+
+
+/*}*/
+
+.paymentType {
+    margin: 15px 0 15px 15px;
+}
+
+.submitDiv {
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+button[name="orderSubmit"] {
+    width: 90%;
+    padding: 10px;
+    /* margin: 0 auto 10px auto;
+    margin: auto; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    outline: none;
+    background: var(--themeColorMenu);
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+button[name="orderSubmit"]:hover {
+    background: var(--ColorTxtHoverMenu);
+}
+
+#paypal-button-container {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+.cartView {
+    max-height: 380px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+@media (max-width:1049px) {
+    .cartView {
+        padding: 0 15px;
+    }
+    #paypal-button-container {
+        width: 75%;
+    }
+}
+
+@media (max-width:767px) {
+    #paypal-button-container {
+        width: 95%;
+    }
+}
+
+.cartElemFlex {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cartElemFlex>div {
+    width: 100%;
+}
+
+.cartElemFlex img {
+    max-width: 150px;
+    /*height: 150px;*/
+}

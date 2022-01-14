@@ -1,0 +1,151 @@
+.contentCart {
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+h1 {
+    margin: 10px;
+}
+
+p.introCart {
+    margin: 15px 0;
+}
+
+hr {
+    margin: 10px;
+}
+
+.flexCart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+table {
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse!important;
+    border: none!important;
+}
+
+table img {
+    max-width: 100px;
+}
+
+tr {
+    max-height: 100px;
+    /*border-bottom: 1px solid black;*/
+    /*background: #2ea26c;*/
+    /*margin-bottom: 10px;*/
+}
+
+td,
+th {
+    /*max-width: 500px;*/
+    min-width: 120px;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+
+td p {
+    max-width: inherit;
+}
+
+.textLeft {
+    text-align: left;
+}
+
+.transactionContain {
+    width: 15%;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.transactionContain>p:last-of-type {
+    margin-bottom: 25px;
+}
+
+a.link {
+    color: var(--themeColorMenu);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.link.delete {
+    color: var(--ErrorColor);
+}
+
+a.link:hover,
+a.link.delete:hover {
+    color: var(--ColorTxtHoverMenu);
+}
+
+a.button {
+    color: var(--ColorTxtMenu);
+    background: var(--themeColorMenu);
+    padding: 8px;
+    text-decoration: none;
+    /*margin-top: 25px;*/
+    cursor: pointer;
+}
+
+a.button:hover {
+    background: var(--ColorBackgroundMenu);
+}
+
+p.promoPrice {
+    color: var(--ErrorColor);
+    text-decoration: line-through;
+}
+
+@media (min-width:1051px) and (max-width:1250px) {
+    .transactionContain {
+        width: 20%;
+        border: 1px solid black;
+        border-radius: 5px;
+        text-align: center;
+        padding: 20px;
+        position: sticky;
+        top: 0;
+    }
+    table {
+        width: 75%;
+        text-align: center;
+        border-collapse: collapse!important;
+        border: none!important;
+    }
+}
+
+@media (max-width:1050px) {
+    .transactionContain {
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 5px;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        top: 0;
+    }
+    table {
+        width: 100%;
+        text-align: center;
+        border-collapse: collapse!important;
+        border: none!important;
+    }
+}
+
+@media (max-width:991px) {
+    tr {
+        max-height: none;
+    }
+    .textLeft {
+        text-align: right;
+    }
+}

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.content {
+    padding: 25px;
+}
+
+div.company {
+    margin-top: 15px;
+}
+
+div.customer {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: right;
+    width: 100%;
+    color: red;
+}
+
+div.items {}
+
+h1 {
+    background-color: rgb(66, 65, 65);
+    text-align: center;
+}
