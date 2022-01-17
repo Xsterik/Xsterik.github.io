@@ -686,6 +686,10 @@ p.infoSlider {
 
 /* actu content */
 
+#actuContent {
+    margin: 0 auto !important;
+}
+
 #actuContent>article:last-child {
     margin-right: 0;
 }
