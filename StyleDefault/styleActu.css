@@ -607,7 +607,7 @@ a.likeBut {
 }
 
 a.likeBut:hover {
-    font-size: 30px;
+    /* font-size: 30px; */
     cursor: pointer;
     color: var(--ColorTxtHoverMenu);
 }
@@ -646,7 +646,7 @@ a.likeBut.dislike {
 }
 
 #textComment h3 {
-    margin: 0 0 5px 15px;
+    margin: 0 0 15px 15px;
 }
 
 #textComment div[contenteditable] {
@@ -756,6 +756,10 @@ a.likeBut.dislike {
 }
 
 .commentTool {}
+
+.butTool {
+    margin-right: 5px;
+}
 
 .commentTool .butTool {
     padding: 5px;

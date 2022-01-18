@@ -576,6 +576,8 @@ label.headerLabel {
     }
     .catesTypesFiltersFlex>div>div {
         text-align: left;
+        width: fit-content;
+        margin: 0 auto !important;
     }
     .SizesFilterFlex {
         display: flex;

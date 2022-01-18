@@ -142,6 +142,9 @@
             background: var(--ColorBackgroundMenu);
             height: 60px;
         }
+        /* .logoHeader {
+            max-width: 50px;
+        } */
         
         .alertSystem {
             background-color: brown;
