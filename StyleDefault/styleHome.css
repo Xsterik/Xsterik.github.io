@@ -193,7 +193,13 @@ h2.lastActuTitle {
     max-height: 200px;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    //transform: translateX(-50%);
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 .flexSolutions2>div div {
