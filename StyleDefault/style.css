@@ -596,16 +596,24 @@
         }
         /* Alert Base.html.twig */
         
-        .alertNotice {
+        .alertFlash {
             position: sticky;
             top: 0;
             padding: 15px;
-            background: var(--themeColorMenu);
-            color: var(--ColorTxtMenu);
             z-index: 500;
         }
         
-        .alertNotice button {
+        .alertNotice {
+            background: var(--themeColorMenu);
+            color: var(--ColorTxtMenu);
+        }
+        
+        .alertWarning {
+            background: var(--ErrorColor);
+            color: var(--ColorTxtMenu);
+        }
+        
+        .alertFlash button {
             position: absolute;
             top: 50%;
             right: 10px;
