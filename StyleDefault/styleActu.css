@@ -529,6 +529,7 @@ h1 span {
 @media (max-width:575px) {
     .imgContainer img {
         width: 100%;
+        max-height: none;
     }
 }
 
