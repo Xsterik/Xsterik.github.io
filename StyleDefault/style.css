@@ -620,6 +620,8 @@
             transform: translateY(-50%);
             font-size: 15px;
             outline: none;
+            background: none;
+            border: none;
         }
         /* login/ Register*/
         
