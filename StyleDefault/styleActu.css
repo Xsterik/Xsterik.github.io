@@ -486,6 +486,13 @@ h1 span {
     margin: 20px 0;
 }
 
+.actuContent img {
+    /* display: block; */
+    max-width: 1500px;
+    /* width: auto; */
+    height: auto;
+}
+
 .createdAt {
     text-align: right;
     font-size: 14px;
@@ -525,6 +532,9 @@ h1 span {
 }
 
 @media (max-width:1499px) {
+    .actuContent img {
+        max-width: 1000px;
+    }
     .relatedFlex article,
     .relatedFlex div.fakeArticle {
         /* width: 15%; */
@@ -537,6 +547,9 @@ h1 span {
 }
 
 @media (max-width:1299px) {
+    .actuContent img {
+        max-width: 750px;
+    }
     .relatedFlex {
         /* flex-wrap: wrap; */
         max-width: 700px;
@@ -554,6 +567,9 @@ h1 span {
 }
 
 @media (max-width:757px) {
+    .actuContent img {
+        max-width: 500px;
+    }
     .relatedFlex article:last-child {
         margin: 25px auto;
         /* margin-left: 0; */
@@ -561,9 +577,18 @@ h1 span {
 }
 
 @media (max-width:575px) {
+    .actuContent img {
+        max-width: 300px;
+    }
     .imgContainer img {
         width: 100%;
         max-height: none;
+    }
+}
+
+@media (max-width:300px) {
+    .actuContent img {
+        max-width: 200px;
     }
 }
 
